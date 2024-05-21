@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+table {
+    border: 1px;
+    width: 900px;
+    height: 80px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: auto;
+
+}
+
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 10px 10px 10px;
+    background-color: gray;
+    color: white;
+    font-weight: bolder;
+    
+}
+
+.vertical {
+    text-align: right;
+
+}
+
+.vertical02 {
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#rodape {
+    font-weight: bolder;
+    background-color: gray;
+    color: white;
+}

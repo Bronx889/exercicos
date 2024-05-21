@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GARNDES
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH    
+    -->
+
+    <table>
+        <thead>
+            <th>Posição</th>
+            <th>Estado</th>
+            <th>População (censo 2022)</th>
+            <th>% da pop. total</th>
+            <th>País Comparável</th>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td>São Paulo</td>
+            <td class="vertical">44 441 238</td>
+            <td class="vertical02">21,88%</td>
+            <td class="vertical">Argentina (46 621 847)</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Minas Gerais</td>
+            <td class="vertical">20 538 718</td>
+            <td class="vertical02">10,11%</td>
+            <td class="vertical">Burquina Fasso (20 903 273)</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Rio de Janeiro</td>
+            <td class="vertical"> 16 054 524</td>
+            <td class="vertical02">7,91%</td>
+            <td class="vertical">Camboja (16 718 965)</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Bahia</td>
+            <td class="vertical">14 141 626</td>
+            <td class="vertical02">6,96%</td>
+            <td class="vertical">Zimbabwe (14 862 924)</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Paraná</td>
+            <td class="vertical">11 444 380</td>
+            <td class="vertical02">5,64%</td>
+            <td class="vertical">Tunísia (11 818 619)</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Rio Grande do Sul</td>
+            <td class="vertical">10 882 965</td>
+            <td class="vertical02">5,36%</td>
+            <td class="vertical">Portugal (10 343 066)</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Pernambuco</td>
+            <td class="vertical">9 058 931</td>
+            <td class="vertical02">4,46%</td>
+            <td class="vertical">Áustria (9 006 398)</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Ceará</td>
+            <td class="vertical">8 794 957</td>
+            <td class="vertical02">4,33%</td>
+            <td class="vertical">Papua-Nova Guiné (8 947 024)</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Pará</td>
+            <td class="vertical">8 121 957</td>
+            <td class="vertical02">4,1%</td>
+            <td class="vertical">Suíça (8 654 622)</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Santa Catarina</td>
+            <td class="vertical">7 610 361</td>
+            <td class="vertical02">3,75%</td>
+            <td class="vertical">Laos (7 749 595)</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>Goiás</td>
+            <td class="vertical">7 056 495</td>
+            <td class="vertical02">3,47%</td>
+            <td class="vertical">Bulgária (6 948 445)</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>Maranhão</td>
+            <td class="vertical">6 775 805</td>
+            <td class="vertical02">3,34%</td>
+            <td class="vertical">Bulgária (6 948 445)</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>Paraíba</td>
+            <td class="vertical">3 974 687</td>
+            <td class="vertical02">1,96%</td>
+            <td class="vertical">Geórgia (3 989 167)</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>Amazonas</td>
+            <td class="vertical">3 941 613</td>
+            <td class="vertical02">1,94%</td>
+            <td class="vertical">Geórgia (3 989 167)</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>Espírito Santo</td>
+            <td class="vertical">3 833 712</td>
+            <td class="vertical02">1,89%</td>
+            <td class="vertical">Geórgia (3 989 167)</td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>Mato Grosso</td>
+            <td class="vertical">3 658 649</td>
+            <td class="vertical02">1,8%</td>
+            <td class="vertical">Geórgia (3 989 167)</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>Rio Grande do Norte</td>
+            <td class="vertical">3 302 729</td>
+            <td class="vertical02">1,63%</td>
+            <td class="vertical">Uruguai (3 473 730)</td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td>Piauí</td>
+            <td class="vertical">3 271 199</td>
+            <td class="vertical02">1,61%</td>
+            <td class="vertical">Bósnia e Herzegovina (3 280 819)</td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td>Alagoas</td>
+            <td class="vertical">3 127 199</td>
+            <td class="vertical02">1,54%</td>
+            <td class="vertical">Mônaco (3 278 290)</td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>Distrito Federal</td>
+            <td class="vertical">2 817 381</td>
+            <td class="vertical02">1,39%</td>
+            <td class="vertical">Armênia (2 963 243)</td>
+        </tr>
+        <tr>
+            <td>21</td>
+            <td>Mato Grosso do Sul</td>
+            <td class="vertical">2 757 013</td>
+            <td class="vertical02">1,36%</td>
+            <td class="vertical">Albânia (2 877 797)</td>
+        </tr>
+        <tr>
+            <td>22</td>
+            <td>Sergipe</td>
+            <td class="vertical">2 209 558</td>
+            <td class="vertical02">1,09%</td>
+            <td class="vertical">Gabão (2 225 734)</td>
+        </tr>
+        <tr>
+            <td>23</td>
+            <td>Rondônia</td>
+            <td class="vertical">1 581 460 </td>
+            <td class="vertical02">0,78%</td>
+            <td class="vertical">Bahrein (1 701 575)</td>
+        </tr>
+        <tr>
+            <td>24</td>
+            <td>Tocantins</td>
+            <td class="vertical">1 511 460 </td>
+            <td class="vertical02">0,74%</td>
+            <td class="vertical">Guiné Equatorial (1 402 985)</td>
+        </tr>
+       <tr>
+            <td>25</td>
+            <td>Acre</td>
+            <td class="vertical">830 018</td>
+            <td class="vertical02">0,41%</td>
+            <td class="vertical">Comores (869 601)</td>
+        </tr>
+        <tr>
+            <td>26</td>
+            <td>Amapá</td>
+            <td class="vertical">733 759</td>
+            <td class="vertical02">0,36%</td>
+            <td class="vertical">Comores (869 601)</td>
+        </tr>
+        <tr>
+            <td>27</td>
+            <td>Roraima</td>
+            <td class="vertical">636 707</td>
+            <td class="vertical02">0,31%</td>
+            <td class="vertical">Montenegro (649 335)</td>
+        </tr>
+        <tfoot>
+            <tr id="rodape">
+                <td>Total de Habitantes</td>
+                <td>Brasil</td>
+                <td class="vertical">203 062 512 </td>
+                <td class="vertical02">100%</td>
+                <td class="vertical">Nigéria (218 541 000)</td>
+            </tr>
+
+        </tfoot>
+    </table>
+</body>
+</html>
