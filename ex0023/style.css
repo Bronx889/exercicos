@@ -7,7 +7,7 @@ table {
     border-collapse: collapse;
     border: 1px solid black;
     margin: auto;
-
+    position: relative;
 }
 
 th {
@@ -18,6 +18,19 @@ th {
     color: white;
     font-weight: bolder;
     
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: gray;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
 }
 
 .vertical {
@@ -32,6 +45,10 @@ th {
 td {
     border: 1px solid black;
     padding: 10px;
+}
+
+tbody > tr:nth-child(even) {
+    background-color: lightgray;
 }
 
 #rodape {

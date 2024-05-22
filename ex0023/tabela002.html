@@ -10,6 +10,7 @@
     <h1>Uso de tabelas grandes</h1>
     <!--
         ANATOMIA PARA TABELAS GARNDES
+        CAPTION
         TABLE
             THEAD
                 TR, TD, TH
@@ -20,12 +21,13 @@
     -->
 
     <table>
+        <caption>População das unidades federativas</caption>
         <thead>
-            <th>Posição</th>
-            <th>Estado</th>
-            <th>População (censo 2022)</th>
-            <th>% da pop. total</th>
-            <th>País Comparável</th>
+            <th scope="col">Posição</th>
+            <th scope="col">Estado</th>
+            <th scope="col">População (censo 2022)</th>
+            <th scope="col">% da pop. total</th>
+            <th scope="col">País Comparável</th>
         </thead>
         <tr>
             <td>1</td>
@@ -218,13 +220,12 @@
         </tr>
         <tfoot>
             <tr id="rodape">
-                <td>Total de Habitantes</td>
-                <td>Brasil</td>
-                <td class="vertical">203 062 512 </td>
-                <td class="vertical02">100%</td>
-                <td class="vertical">Nigéria (218 541 000)</td>
+                <td scope="row">Total de Habitantes</td>
+                <td scope="row">Brasil</td>
+                <td class="vertical" scope="row">203 062 512 </td>
+                <td class="vertical02" scope="row">100%</td>
+                <td class="vertical" scope="row">Nigéria (218 541 000)</td>
             </tr>
-
         </tfoot>
     </table>
 </body>
